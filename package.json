@@ -1,0 +1,15 @@
+{
+  "name": "ramyeon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"npx tailwindcss -i ./src/i-style.css -o ./public/assets/css/o-style.css --watch" 
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

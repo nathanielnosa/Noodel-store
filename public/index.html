@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RamYeon</title>
+    <link
+      rel="shortcut icon"
+      href="/public/assets/img/img-4.jpg"
+      type="image/x-icon"
+    />
+    <!-- box icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/o-style.css" />
+  </head>
+  <body>
+    <section class="container mx-auto font-main">
+      <!-- navbar -->
+      <nav
+        class="flex relative shadow-sm shadow-slate-800 justify-between align-middle bg-mainColor px-3 h-auto py-5"
+      >
+        <a href="" class="text-4xl text-white font-bold">Ramyeon</a>
+        <ul
+          id="nav-menu"
+          class="gap-x-8 text-mainColor capitalize hidden absolute top-20 left-0 text-center py-8 h-auto w-full bg-slate-100 md:relative md:flex md:justify-end md:top-0 md:text-white z-50 md:bg-transparent md:py-0 transition ease-in-out"
+        >
+          <li
+            class="transition ease-in-out delay-10 hover:-translate-y-1 hover:scale-115 duration-400"
+          >
+            <a href="" class="">home</a>
+          </li>
+          <li
+            class="transition ease-in-out delay-10 hover:-translate-y-1 hover:scale-115 duration-400"
+          >
+            <a href="" class="">about</a>
+          </li>
+          <li
+            class="transition ease-in-out delay-10 hover:-translate-y-1 hover:scale-115 duration-400"
+          >
+            <a href="" class="">contact</a>
+          </li>
+          <li
+            class="transition ease-in-out delay-10 hover:-translate-y-1 hover:scale-115 duration-400"
+          >
+            <a href="" class="">gallery</a>
+          </li>
+        </ul>
+        <div id="icons">
+          <i class="bx md:hidden bx-menu text-4xl text-white" id="menu"></i>
+        </div>
+      </nav>
+
+      <!-- login -->
+      <div class="flex justify-end my-4 gap-x-3 text-mainColor">
+        <a href="" class="sign">Log in</a>
+        <a href="" class="sign">Sign up</a>
+      </div>
+
+      <!-- intro -->
+      <div class="text-center my-20">
+        <h3 class="text-5xl" data-aos="fade-up-right" data-aos-duration="3000">
+          Recipes
+        </h3>
+        <p
+          data-aos="fade-up-left"
+          data-aos-duration="2000"
+          class="capitalize my-3 w-4/5 md:w-1/4 mx-auto"
+        >
+          for all ramyeon lovers, this is my recipe on how to cook ramyeon
+        </p>
+
+        <form action="" class="my-16">
+          <div data-aos="fade-up">
+            <input
+              type="text"
+              class="border-mainColor h-14 bg-transparent border-4 w-3/5 rounded-lg"
+            />
+            <button class="btn bg-mainColor text-white">
+              <i class="bx bx-search text-white text-base"></i> search
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <section id="latest" class="mt-20">
+        <h4
+          class="text-3xl capitalize text-mainColor"
+          data-aos="fade-up"
+          data-aos-duration="2500"
+        >
+          latest recipes
+        </h4>
+        <div
+          class="grid md:grid-cols-3 gap-10 my-4"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
+          <div class="card">
+            <img src="assets/img/img-1.jpg" alt="" class="h-60 w-full" />
+            <div class="p-4 w-50">
+              <h5 class="font-bold">2 spoon of chill</h5>
+              <p class="my-3">Lorem ipsum dolor sit amet...</p>
+              <span>recipe by nathaniel</span>
+            </div>
+            <div class="badge"><i class="bx bx-time"></i> 20min</div>
+          </div>
+          <div class="card">
+            <img src="assets/img/img-2.jpg" alt="" class="h-60 w-full" />
+            <div class="p-4 w-50">
+              <h5 class="font-bold">2 spoon of chill</h5>
+              <p class="my-3">Lorem ipsum dolor sit amet...</p>
+              <span>recipe by nathaniel</span>
+            </div>
+            <div class="badge"><i class="bx bx-time"></i> 25min</div>
+          </div>
+          <div class="card">
+            <img src="assets/img/img-3.jpg" alt="" class="h-60 w-full" />
+            <div class="p-4 w-50">
+              <h5 class="font-bold">2 spoon of chill</h5>
+              <p class="my-3">Lorem ipsum dolor sit amet...</p>
+              <span>recipe by nathaniel</span>
+            </div>
+            <div class="badge"><i class="bx bx-time"></i> 25min</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="most" class="mt-20">
+        <h4 class="text-3xl capitalize text-mainColor" data-aos="fade-up">
+          most recipes
+        </h4>
+        <div
+          class="grid md:grid-cols-3 gap-10 my-4"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <div class="bg-white shadow-md rounded overflow-hidden">
+            <img src="assets/img/img-3.jpg" alt="" class="h-60 w-full" />
+            <div class="p-4 w-50">
+              <h5 class="font-bold">4 spoon of stew</h5>
+              <p class="my-3">Lorem ipsum dolor sit amet...</p>
+              <span>recipe by nathaniel</span>
+            </div>
+          </div>
+          <div class="bg-white shadow-md rounded overflow-hidden">
+            <img src="assets/img/img-5.jpg" alt="" class="h-60 w-full" />
+            <div class="p-4 w-50">
+              <h5 class="font-bold">4 spoon of stew</h5>
+              <p class="my-3">Lorem ipsum dolor sit amet...</p>
+              <span>recipe by nathaniel</span>
+            </div>
+          </div>
+          <div class="bg-white shadow-md rounded overflow-hidden">
+            <img src="assets/img/img-6.jpg" alt="" class="h-60 w-full" />
+            <div class="p-4 w-50">
+              <h5 class="font-bold">4 spoon of stew</h5>
+              <p class="my-3">Lorem ipsum dolor sit amet...</p>
+              <span>recipe by nathaniel</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="my-3 text-center">
+        <button class="btn bg-mainColor">load more</button>
+      </div>
+    </section>
+
+    <footer
+      class="mt-20 h-auto py-5 bg-gray-300 container mx-auto px-4"
+      data-aos="fade-up"
+      data-aos-duration="2500"
+    >
+      <div class="grid md:grid-cols-4">
+        <a href="" class="text-4xl text-mainColor font-bold">Ramyeon</a>
+
+        <div>
+          <h4 class="font-bold text-lg text-mainColor">About</h4>
+          <ul>
+            <li class="my-5 cursor-pointer">How it works</li>
+            <li class="my-5 cursor-pointer">Affiliates</li>
+            <li class="my-5 cursor-pointer">Media</li>
+            <li class="my-5 cursor-pointer">Gallery</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-lg text-mainColor">Support</h4>
+          <ul>
+            <li class="my-5 cursor-pointer">Trust & Safety</li>
+            <li class="my-5 cursor-pointer">Help Center</li>
+            <li class="my-5 cursor-pointer">Kitchen</li>
+            <li class="my-5 cursor-pointer">Tips & Trick</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-lg text-mainColor">News letter</h4>
+          <form action="">
+            <input
+              type="text"
+              class="border border-mainColor rounded-md h-10 w-full bg-transparent"
+            />
+          </form>
+        </div>
+      </div>
+    </footer>
+    <div class="my-3 grid md:grid-cols-2 container justify-evenly mx-auto">
+      <p class="">2023 All right reserved</p>
+      <p class="">Designed By: Nathaniel Nosa</p>
+    </div>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/style.js"></script>
+  </body>
+</html>

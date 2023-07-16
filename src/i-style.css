@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card{
+    @apply bg-white shadow-md rounded overflow-hidden relative
+}
+.badge{
+    @apply bg-mainColor text-white rounded-full absolute p-2 top-2 left-2
+}
+
+.btn{
+    @apply rounded-md py-3 px-4 capitalize font-bold cursor-pointer
+}
+
+.sign{
+    @apply hover:bg-gradient-to-r transition ease duration-300 from-mainColor to-pink-500 hover:text-white hover:rounded-md p-3
+}
